@@ -1,0 +1,10 @@
+[
+    {
+        "python_code": "def greet(name):\n    print(f\"Hello, {name}!\")",
+        "julia_code": "function greet(name)\n    println(\"Hello, $name!\")\nend"
+    },
+    {
+        "python_code": "for i in range(5):\n    print(i)",
+        "julia_code": "for i in 0:4\n    println(i)\nend"
+    }
+]
